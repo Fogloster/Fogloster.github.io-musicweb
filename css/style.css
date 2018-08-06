@@ -214,3 +214,15 @@ body {
   content: url(../img/markup.png);
   top: 2px;
 }
+
+.stations__list {
+  list-style: none;
+}
+
+.station__link:hover {
+ filter: invert(1);
+}
+
+.station__link:active {
+  filter: none;
+}
