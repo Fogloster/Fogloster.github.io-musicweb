@@ -89,5 +89,128 @@ body {
   margin-left: 230px;
   margin-top: 125px;
 
+}
 
+.player__wrapper {
+  background-color: #b50b1e;
+}
+
+.player__scale-form {
+  display: flex;
+  position: relative;
+}
+
+.player-controls__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.player__btn {
+  background-color: #b50b1e;
+  border: none;
+  z-index: 2;
+}
+
+.player__btn:hover {
+  opacity: 0.7;
+}
+
+.play-btn {
+  margin-left: 230px;
+  margin-right: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.player__song-name {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.player__song-timer {
+  margin: 0;
+  margin-left: 260px;
+  padding: 0;
+  padding-top: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.filter-fieldset {
+ border: none;
+}
+
+.range-filter {
+  position: absolute;
+  left: 500px;
+  width: 565px;
+  margin-bottom: 60px;
+  background-color: #b50b1e;
+  z-index: 1;
+}
+
+.range-controls {
+  position: relative;
+  left: -175px;
+  top: 15px;
+
+  height: 20px;
+
+  margin-bottom: 15px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.range-controls .scale {
+  height: 7px;
+
+  background-color: black;
+}
+.range-controls .bar {
+  width: 30%;
+  height: 7px;
+
+  background-color: #72040d;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 31px;
+  left: 0;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+
+  border: 6px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-controls .toggle {
+  left: 175px;
+  top: 35px;
+}
+
+.genres-stations__title {
+  position: relative;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 28px;
+
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.genres-station__title::before {
+  content: url(../img/markup.png);
+  top: 2px;
 }
