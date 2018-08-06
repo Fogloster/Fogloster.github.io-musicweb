@@ -199,6 +199,7 @@ body {
   top: 35px;
 }
 
+
 .genres-stations__title {
   position: relative;
   font-weight: bold;
@@ -210,13 +211,25 @@ body {
   margin-top: 60px;
 }
 
-.genres-station__title::before {
+.genres-stations__title:before {
   content: url(../img/markup.png);
-  top: 2px;
 }
 
 .stations__list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  margin-left: 230px;
+  margin-top: 60px;
+  width: 940px;
+}
+
+.station-item {
+  margin-right: 20px;
 }
 
 .station__link:hover {
@@ -225,4 +238,19 @@ body {
 
 .station__link:active {
   filter: none;
+}
+
+.load-more-btn {
+  margin-left: 550px;
+  padding-left: 105px;
+  padding-right: 105px;
+  height: 30px;
+
+  border: 1px solid #dddddd;
+  background-color: white;
+  color: red;
+
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
 }
