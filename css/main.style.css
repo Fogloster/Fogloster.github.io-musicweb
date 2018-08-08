@@ -52,15 +52,23 @@ body {
 }
 
 .main-header__wrapper--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .main-navigation__list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 
   padding: 0;
   margin: 0;
@@ -107,14 +115,20 @@ body {
 }
 
 .player__scale-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
 
 .player-controls__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .player__btn {
@@ -238,9 +252,13 @@ body {
 
 .stations__list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   
   padding: 0;
   margin: 0;
@@ -254,11 +272,13 @@ body {
 }
 
 .station__link:hover {
- filter: invert(1);
+ -webkit-filter: invert(1);
+         filter: invert(1);
 }
 
 .station__link:active {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .load-more-btn {
@@ -350,8 +370,11 @@ body {
 
 .news__list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 
   margin: 0;
   margin-left: 239px;
@@ -485,7 +508,8 @@ body {
 
 .subscribe-form__input { 
   font-family: "Montserrat";
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid  white;
   border-radius: 7px;
 
@@ -527,6 +551,8 @@ body {
 }
 
 .footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -544,6 +570,8 @@ body {
 
 .footer__list--social {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 
   margin: 0;
